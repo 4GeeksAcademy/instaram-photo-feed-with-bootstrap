@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/4fbade60f0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand">instagram</a>
+            <form class="d-flex" role="search">
+
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    create a new post
+                </button>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown float-right mr-auto">
+                    <button class="btn btn-secondary dropdown-toggle " type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Dropdown button
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+    </nav>
+    <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+                type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i
+                    class="fa-solid fa-table-cells"></i></button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+                type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i
+                    class="fa-solid fa-square"></i></button>
+        </li>
+
+    </ul>
+    <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+            tabindex="0">
+            <div class="container text-center">
+
+                <div class="row align-items-start">
+                    <div class="col">
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3X7M6_o5UKhUgcJrCRH-eLewlJwTx7S2l3g&usqp=CAU" />
+                    </div>
+                    <div class="col">
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzkgXMS3-OUNbjC6PQ0n2UjuPFyaBadkbYPw&usqp=CAU" />
+                    </div>
+                    <div class="col">
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ26OX7erD6XZ3E9Qv5_NHNOrlNtE5dB55WHQ&usqp=CAU" />
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col">
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuvj0nKtW6hwBrQNCtGYqeh3NDIsQ57rRIeQ&usqp=CAU" />
+                    </div>
+                    <div class="col">
+                        O<img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJUcTlPpxhtaxhJnZB6JO0GJdcTmx3MH5QRg&usqp=CAU" />
+                    </div>
+                    <div class="col">
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7pgpsEPIGXY8mruaB9e-1cbCvie7QJmx7KA&usqp=CAU" />
+                    </div>
+                </div>
+                <div class="row align-items-end">
+                    <div class="col">
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGR-As4LpAn-WBEWT6rrN1Sn1-zV7iJ_iW4g&usqp=CAU" />
+                    </div>
+                    <div class="col">
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJITpV7-IqqwjMvnFQOX5oqUi5S675V8rl0g&usqp=CAU" />
+                    </div>
+                    <div class="col">
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScjLEEEKh3niD1espK8sdJmAnVvwYBkC3z1w&usqp=CAU" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade justify-content-center d-flex" id="pills-profile" role="tabpanel"
+            aria-labelledby="pills-profile-tab" tabindex="0">
+            <div class="card" style="width: 18rem;">
+
+                <img src="https://assetsio.reedpopcdn.com/DemonSlayer_MQEO1AW.jpg?width=1200&height=600&fit=crop&enable=upscale&auto=webp"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://e0.pxfuel.com/wallpapers/915/665/desktop-wallpaper-luffy-manga-badasse-thumbnail.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
